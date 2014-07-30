@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+	<title>Jquery Mobile Demo</title>
+    <link rel="stylesheet" href="css/myTheme.css" />
+  	<link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.3.min.css" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.3.min.js"></script>
+    
+</head>
+
+<body>
+	<div data-role="page" id="page1" data-theme="d">
+    	<div data-role="header">
+        	<h1>My Portfolio</h1> 
+            <div data-role="navbar">
+            	<ul>
+                   	<li><a href="#page1">Home</a></li>
+                	<li><a href="#page2">Contact Us</a></li>
+            	</ul>
+            </div>     
+        </div>
+		<div data-role="main" class="ui-content">
+        	<div data-role="collapsible">
+            	<h1>Education</h1>
+                <p>Hi i am an intern at IT Gamut... And this is my sample application.</p>
+            </div>
+            
+            <div data-role="collapsible">
+            	<h1>Work Experience</h1>
+                <p>Just Completed 7th semister and searching for Internship and Job.</p>
+            </div>
+        </div>    
+        <div data-role="footer">
+        	<h2>&copy; Rubin Bajracharya 2014</h2>
+        </div>
+    
+    </div>
+    
+    <!-- Page 2 -->
+    <div data-role="page" id="page2" data-theme="d">
+    	<div data-role="header">
+        	<h1>My Portfolio</h1> 
+            <div data-role="navbar">
+            	<ul>
+                   	<li><a href="#page1">Home</a></li>
+                	<li><a href="#page2">Contact Us</a></li>
+            	</ul>
+            </div>     
+        </div>
+		<div data-role="main" class="ui-content">
+        	<form>
+            	<label>Tell us how we are</label>
+                <textarea placeholder="Tell us what you think"></textarea>
+                <label>Rate us in 10</label>
+                <input type="range" min="0" max="10" name="rate" id="rate">
+                
+                <input type="submit" value="Submit" name="submit" id="submit">
+            
+            </form>
+        </div>    
+        <div data-role="footer">
+        	<h2>&copy; Rubin Bajracharya 2014</h2>
+        </div>
+    
+    </div>
+
+</body>
+</html>
